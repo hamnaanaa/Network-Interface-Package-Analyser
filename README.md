@@ -1,4 +1,4 @@
-# Network-Interface-Package-Analyser
+# Network Interface Package Analyser
 ## Description
 C program that mimicks a packet analyzer of all incoming network packets.
 The program reads all network packets from the specified interface (see usage) and prints the total rate.
@@ -13,7 +13,13 @@ $ make
 ## Usage
 Example:
 ```sh
-./ethstats -i wlp3s0 10000
+./ethstats -i wlp3s0 6000
+I am ready!
+0x0800: 5998 frames, 7491339 bytes
+0x0806: 2 frames, 84 bytes
+5368 of them were for me
+0 of them were multicast
+Total rate 28.779341 Mbit/s | 3.430765 MiB/s | 3597.417578 kB/s | 28104.824828 Kibit/s
 ```
 
 Short usage:
