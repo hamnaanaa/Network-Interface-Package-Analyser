@@ -14,6 +14,7 @@ $ make
 Example:
 ```sh
 ./ethstats -i wlp3s0 6000
+
 I am ready!
 0x0800: 5998 frames, 7491339 bytes
 0x0806: 2 frames, 84 bytes
@@ -25,6 +26,7 @@ Total rate 28.779341 Mbit/s | 3.430765 MiB/s | 3597.417578 kB/s | 28104.824828 K
 Short usage:
 ```sh
 $ ./ethstats --usage
+
 Usage: ethstats [-?] [-i interface] [--interface=interface] [--help] [--usage]
             NUM
 ```
